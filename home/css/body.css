@@ -15,6 +15,11 @@ body {
     box-sizing: border-box;
 }
 
+main {
+    opacity: 0;
+    animation: fadeIn 01s ease-in forwards;
+}
+
 .last_blog,
 .hint {
     background-color: #F5F5F5;
@@ -74,10 +79,15 @@ nav {
     padding: 10px 10px;
     background-color: transparent;
     cursor: pointer;
+    transition: scale 0.5s;
 }
 
+.nav_icon , .nav_text {
+    opacity: 0;
+    animation: fadeIn 02s ease-in forwards;
+}
 
-.nav_icon:hover{
+.nav_icon:hover {
     scale: 110%;
 }
 
@@ -115,27 +125,22 @@ nav {
     direction: rtl;
 }
 
-.activity_bar_details {
-    height: 100px;
-    width: 100px;
+.counter-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    direction: rtl;
-    text-align: center;
-    border-radius: 52px;
-    border-width: 3px;
-    border-style: solid;
-    flex: 1;
-    border-color: #003366;
-    color: #003366;
-    text-align: center;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin: 20px;
 }
 
-.activity_bar_details_text {
-    direction: rtl;
-    padding: 10px;
+.counter {
+    font-size: 40px;
+    color: #003366;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #003366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }

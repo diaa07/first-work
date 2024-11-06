@@ -46,6 +46,7 @@ footer {
 
 .footer_upper_part_text{
     cursor: pointer;
+    color: #D5C7B1;
 }
 
 .footer_upper_part_text:hover{
