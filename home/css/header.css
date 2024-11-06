@@ -42,18 +42,3 @@ header{
     display: block;
     text-align: center;
 }
-
-@media (max-widt:650px)
-{
-    .header_mid_section{
-        flex: 3;
-    }
-}
-
-
-@media (max-widt:1000px) and (min-width:651px)
-{
-    .header_mid_section{
-        flex: 2;
-    }
-}
