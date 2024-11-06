@@ -1,0 +1,141 @@
+main {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    font-family: Cairo;
+    align-items: center;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.last_blog,
+.hint {
+    background-color: #F5F5F5;
+    color: #333333;
+    flex: 2;
+    width: 100%;
+    padding: 20px 50px;
+    /* Adjust these values as needed */
+    box-sizing: border-box;
+}
+
+.last_blog_title,
+.hint_title {
+    color: #003366;
+    font-size: 32px;
+    text-align: right;
+    display: block;
+}
+
+.last_blog_content,
+.hint_content {
+    font-size: 20px;
+    display: block;
+    text-align: right;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+nav {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    padding-top: 20px;
+    background-color: #F0E6D2;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #003366;
+}
+
+.nav_dif {
+    flex: 0.1;
+}
+
+.nav_frames {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav_icon {
+    display: block;
+    width: 100px;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.nav_icon:hover{
+    scale: 110%;
+}
+
+.nav_text {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.activity_bar {
+    flex: 2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+}
+
+.activity_bar_left_sec {
+    flex: 1;
+}
+
+.activity_bar_right_sec {
+    flex: 1;
+}
+
+.activity_bar_mid_sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+}
+
+.activity_bar_details {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    text-align: center;
+    border-radius: 52px;
+    border-width: 3px;
+    border-style: solid;
+    flex: 1;
+    border-color: #003366;
+    color: #003366;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.activity_bar_details_text {
+    direction: rtl;
+    padding: 10px;
+}
